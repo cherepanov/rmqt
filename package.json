@@ -1,10 +1,17 @@
 {
   "name": "rmqt",
   "version": "0.0.3",
-  "private": true,
+  "description": "tryout to implement reliable MQ with redis and node",
+  "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=production ./app"
+    "start": "NODE_ENV=production ./app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cherepanov/rmqt"
+  },
+  "author": "a@cherepanov.info",
+  "license": "GPL",
   "dependencies": {
     "ioredis": "1.9.x",
     "log4js": "0.6.x",
