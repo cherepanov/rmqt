@@ -1,0 +1,14 @@
+{
+  "name": "rmqt",
+  "version": "0.0.3",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production ./app"
+  },
+  "dependencies": {
+    "ioredis": "1.9.x",
+    "log4js": "0.6.x",
+    "yargs": "3.29.x",
+    "bluebird": "2.10.x"
+  }
+}

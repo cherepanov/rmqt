@@ -1,0 +1,15 @@
+{
+  "redis": {
+    "addr": "127.0.0.1",
+    "port": "6379",
+    "password": ""
+  },
+  "rmqt": {
+    "SENDER_CHECK_INTERVAL": 500,
+    "RECEIVER_POOL_INTERVAL": 50,
+    "EMIT_INTERVAL": 500,
+    "SENDER_ALIVE_TIMEOUT": 1000,
+    "MSG_HANG_TIMEOUT": 10000,
+    "ACK_MSG_TIMEOUT": 10
+  }
+}
