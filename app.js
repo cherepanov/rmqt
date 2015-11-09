@@ -10,7 +10,7 @@ require("./lib/const");
 
 process.title = PROCESS_BASE_NAME;
 
-global.DEBUG = process.env["NODE_ENV"] === "debug";
+global.DEBUG = process.env["NODE_ENV"] === "development";
 
 var ArgvParser = require("./lib/ArgumentsParser");
 

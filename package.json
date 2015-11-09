@@ -1,10 +1,11 @@
 {
   "name": "rmqt",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "tryout to implement reliable MQ with redis and node",
   "main": "app.js",
   "scripts": {
-    "start": "NODE_ENV=production ./app.js"
+    "start": "NODE_ENV='production' node ./app.js -c ./config.json",
+    "_start": "NODE_ENV='development' node --debug ./app.js -c ./config.json"
   },
   "repository": {
     "type": "git",
